@@ -1,0 +1,2 @@
+#Crontab to get zimbra services status, need to installed under root user cron
+* * * * * sudo -H -u zimbra /opt/zimbra/bin/zmcontrol status > /usr/local/scripts/zimbra_stats.txt
